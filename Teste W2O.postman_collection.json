@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "73794d5d-b86a-4347-beca-070a25f95e5a",
+		"name": "Teste W2O",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://testemobile.w2o.com.br/login/login?login=&senha=",
+					"protocol": "http",
+					"host": [
+						"testemobile",
+						"w2o",
+						"com",
+						"br"
+					],
+					"path": [
+						"login",
+						"login"
+					],
+					"query": [
+						{
+							"key": "login",
+							"value": ""
+						},
+						{
+							"key": "senha",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Item - Lista",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://testemobile.w2o.com.br/item/lista?hash=",
+					"protocol": "http",
+					"host": [
+						"testemobile",
+						"w2o",
+						"com",
+						"br"
+					],
+					"path": [
+						"item",
+						"lista"
+					],
+					"query": [
+						{
+							"key": "hash",
+							"value": "",
+							"description": "Retorna no Login"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Item - Novo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://testemobile.w2o.com.br/item/novo?hash=&data=04/02/2020&valor=1000,50&categoria=Outros&nome=nome&descricao=descricao",
+					"protocol": "http",
+					"host": [
+						"testemobile",
+						"w2o",
+						"com",
+						"br"
+					],
+					"path": [
+						"item",
+						"novo"
+					],
+					"query": [
+						{
+							"key": "hash",
+							"value": "",
+							"description": "Retorna no Login"
+						},
+						{
+							"key": "data",
+							"value": "04/02/2020",
+							"description": "Enviar no padrão brasileiro"
+						},
+						{
+							"key": "valor",
+							"value": "1000,50",
+							"description": "Separador de decimais deve ser ,\n"
+						},
+						{
+							"key": "categoria",
+							"value": "Outros"
+						},
+						{
+							"key": "nome",
+							"value": "nome"
+						},
+						{
+							"key": "descricao",
+							"value": "descricao"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Item - Atualiza",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"hash\"\t\t: \"\",\n\t\"data\"\t\t: \"04/02/2020\",\n\t\"valor\" \t: \"1000,50\",\n\t\"categoria\" : \"Outros\",\n\t\"nome\"\t\t: \"nome23\",\n\t\"descricao\" : \"descricao\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://testemobile.w2o.com.br/item/form/1",
+					"protocol": "http",
+					"host": [
+						"testemobile",
+						"w2o",
+						"com",
+						"br"
+					],
+					"path": [
+						"item",
+						"form",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Item - Deleta",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"hash\"\t\t: \"\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://testemobile.w2o.com.br/item/delete/1",
+					"protocol": "http",
+					"host": [
+						"testemobile",
+						"w2o",
+						"com",
+						"br"
+					],
+					"path": [
+						"item",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
