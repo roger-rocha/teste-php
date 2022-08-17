@@ -18,8 +18,7 @@ Os parametros para a requisição são id_empresa, mes.
 
 Caso queira importar o projeto e usar na maquina local, deve setar um banco mysql e colocar no .env do projeto as suas credenciais
 
-PHP 8.0
-Laravel 9
+Foi utilizado PHP 8.0 e Laravel 9
 
 Dar os comandos "npm i", "composer u" para instalar algumas dependencias
 
