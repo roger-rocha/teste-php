@@ -18,10 +18,13 @@ Os parametros para a requisição são id_empresa, mes.
 
 Caso queira importar o projeto e usar na maquina local, deve setar um banco mysql e colocar no .env do projeto as suas credenciais
 
-Dar os comandos (npm i), (composer u) para instalar algumas dependencias
+PHP 8.0
+Laravel 9
 
-Tera que então executar o comando php artisan migrate (para criar as tabelas no banco) , php artisan db:seed (popular algumas coisas), php artisan key:generate 
+Dar os comandos "npm i", "composer u" para instalar algumas dependencias
 
-Logo após pode executar o comando php artisan serve que irá iniciar o projeto no seu localhost:8000
+Tera que então executar o comando "php artisan migrate" (para criar as tabelas no banco) , "php artisan db:seed" (popular algumas coisas), "php artisan key:generate" 
+
+Logo após pode executar o comando "php artisan serve" que irá iniciar o projeto no seu localhost:8000
 
 A pagina inicial é http://localhost8000/empresa
