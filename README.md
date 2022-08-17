@@ -10,6 +10,12 @@ Fiz a maioria das validações e requisitos desejáveis
 
 Para conseguir extrair os dados dos aniversariante atráves do endpoint http://18.228.228.81/api/niver?id_empresa=1&mes=01
 
+![Screenshot (48)](https://user-images.githubusercontent.com/74687838/185253500-ddcfefaa-7f4a-427f-86ba-b9089fe4215d.png)
+
+Os parametros para a requisição são id_empresa, mes.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
 Caso queira importar o projeto e usar na maquina local, deve setar um banco mysql e colocar no .env do projeto as suas credenciais
 
 Dar os comandos (npm i), (composer u) para instalar algumas dependencias
