@@ -6,7 +6,7 @@ Coloquei o projeto rodando em uma instancia da AWS para facilitar o teste, recom
 
 Link: http://18.228.228.81/empresa
 
-Fiz a maioria das validações e requisitos desejáveis
+Implementei a maioria das validações e requisitos recomendados do teste.
 
 Para conseguir extrair os dados dos aniversariante atráves do endpoint http://18.228.228.81/api/niver?id_empresa=1&mes=01
 
