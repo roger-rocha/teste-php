@@ -2,7 +2,7 @@
 
 O projeto foi feito todo em Laravel, usei um pouco de Bootstrap e Jquery
 
-Coloquei o projeto rodando em uma instancia da AWS para facilitar o teste.
+Coloquei o projeto rodando em uma instancia da AWS para facilitar o teste, recomendo que façam testes lá, caso não queiram ter o trabalho de fazer o setup para rodar o projeto localmente.
 
 Link: http://18.228.228.81/empresa
 
